@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import './App.css'
-import PizzaOrder from './components/PizzaOrder'
+import AxiosGet from './components/AxiosGet'
+import AxiosPost from './components/AxiosPost'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-    <PizzaOrder/>
+    <AxiosPost/>
+    <AxiosGet/>
     </>
   )
 }
